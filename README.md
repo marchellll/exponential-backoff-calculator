@@ -27,9 +27,9 @@ The simplest use case involves calculating a backoff time using only the `attemp
 - `randomizationFactor = 0.25`
 
 ```ts
-import { calcBackoffMs } from 'calc-backoff-ms';
+import { calcBackoffMs } from 'exponential-backoff-calculator';
 // OR
-const { calcBackoffMs } = require('calc-backoff-ms');
+const { calcBackoffMs } = require('exponential-backoff-calculator');
 
 // Example: Retry attempt #3
 const backoffTime = calcBackoffMs({ attempt: 3 });
@@ -48,7 +48,7 @@ For more control over the retry mechanism, you can customize all the options:
 - `randomizationFactor`: Add a random factor to make the backoff time less predictable.
 
 ```ts
-import { calcBackoffMs } from 'calc-backoff-ms';
+import { calcBackoffMs } from 'exponential-backoff-calculator';
 
 // Custom configuration for advanced retry strategy
 const options = {
