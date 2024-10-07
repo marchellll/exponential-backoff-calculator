@@ -1,6 +1,6 @@
 {
   "name": "exponential-backoff-calculator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This is not a retry library. This just calculate how many second we must back off, before the next retry.",
   "main": "build/index.js",
   "types": "buid/index.d.ts",
