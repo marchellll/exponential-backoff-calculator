@@ -1,0 +1,36 @@
+{
+  "name": "exponential-backoff-calculator",
+  "version": "1.0.0",
+  "description": "This is not a retry library. This just calculate how many second we must back off, before the next retry.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "compile": "tsc",
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/marchellll/exponential-backoff-calculator.git"
+  },
+  "keywords": [
+    "exponential",
+    "backoff",
+    "retry"
+  ],
+  "author": "Marchell Imanuel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marchellll/exponential-backoff-calculator/issues"
+  },
+  "homepage": "https://github.com/marchellll/exponential-backoff-calculator#readme",
+  "devDependencies": {
+    "@types/jest": "^29.5.13",
+    "jest": "^29.7.0",
+    "nyc": "^17.1.0",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.6.2"
+  }
+}
